@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Политика cookie — Автомойка «Бруклин»</title>
+    <meta name="robots" content="noindex, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="wrap header__inner">
+            <a class="logo" href="index.html">
+                <span class="bullet" aria-hidden="true">24</span>
+                Бруклин
+            </a>
+
+            <nav class="nav" aria-label="Разделы сайта">
+                <a href="index.html#prices">Цены</a>
+                <a href="index.html#booking">Запись</a>
+                <a href="index.html#comfort">Пока ждёте</a>
+                <a href="index.html#gift">Сертификат</a>
+                <a href="index.html#contacts">Как доехать</a>
+            </nav>
+
+            <a class="header__phone" href="tel:+79657057820">+7 965 705-78-20</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrap legal-head">
+            <a class="back-link" href="index.html">На главную</a>
+        </div>
+
+        <div class="wrap legal">
+            <nav class="legal__docs" aria-label="Документы">
+                <a href="privacy.html">Политика конфиденциальности</a>
+                <a href="consent.html">Согласие на обработку данных</a>
+                <a href="cookies.html" aria-current="page">Политика cookie</a>
+                <a href="terms.html">Пользовательское соглашение</a>
+            </nav>
+
+            <article class="legal__body">
+                <h1 class="legal__title">Политика cookie</h1>
+                <p class="legal__date">Редакция от 16 ноября 2026</p>
+                <p class="legal__intro">Коротко: сайт сам ничего не отслеживает. Cookie ставит только карта Яндекса, и только если вы это разрешили.</p>
+
+                    <h2>Что такое cookie</h2>
+                    <p>Cookie — небольшие файлы, которые сайт сохраняет в браузере. Они помогают запомнить настройки и показывать встроенные сервисы, например карту.</p>
+
+                    <h2>Что использует этот сайт</h2>
+                    <table class="legal__table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Что</th>
+                                <th scope="col">Зачем</th>
+                                <th scope="col">Чьё</th>
+                                <th scope="col">Когда включается</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Запись о вашем выборе в хранилище браузера</td>
+                                <td>Запомнить ваш выбор в баннере, чтобы не спрашивать снова</td>
+                                <td>Сайт</td>
+                                <td>Всегда, это необходимая запись</td>
+                            </tr>
+                            <tr>
+                                <td>Cookie Яндекс Карт</td>
+                                <td>Показать интерактивную карту в разделе с адресом</td>
+                                <td>ООО «Яндекс»</td>
+                                <td>Только после кнопки «Принять все»</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Сайт не использует системы аналитики, счётчики посещений и рекламные cookie.</p>
+                    <p>Шрифты загружаются с серверов Google Fonts. Cookie при этом не ставятся, но сервер шрифтов видит IP-адрес вашего устройства.</p>
+
+                    <h2>Как изменить выбор</h2>
+                    <p class="legal__status">Сейчас разрешено: <strong data-cookie-status>вы ещё не выбрали</strong>.</p>
+                    <button class="btn" type="button" data-cookie-reset>Изменить выбор</button>
+                    <p>Ещё cookie можно удалить или запретить в настройках браузера. Сайт продолжит работать, не загрузится только карта — вместо неё будет ссылка на Яндекс Карты.</p>
+
+                    <h2>Обработка данных</h2>
+                    <p>Как мы обращаемся с персональными данными, описано в <a href="privacy.html">политике конфиденциальности</a>.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap footer__inner">
+            <p class="logo logo--footer">
+                <span class="bullet" aria-hidden="true">24</span>
+                Бруклин
+            </p>
+            <p class="footer__small">Автомойка «Бруклин», Обнинск, Борисоглебская, 58Б</p>
+            <nav class="footer__legal" aria-label="Документы">
+                <a href="privacy.html">Политика конфиденциальности</a>
+                <a href="consent.html">Согласие на обработку данных</a>
+                <a href="cookies.html">Политика cookie</a>
+                <a href="terms.html">Пользовательское соглашение</a>
+            </nav>
+            <!-- Реквизиты: заменить на настоящие данные владельца -->
+            <p class="footer__small">
+                ИП <span class="fill">Фамилия Имя Отчество</span>, ИНН <span class="fill">000000000000</span>,
+                ОГРНИП <span class="fill">000000000000000</span>
+            </p>
+            <p class="footer__small">© <span data-year>2026</span></p>
+        </div>
+    </footer>
+
+    <script src="js/cookies.js"></script>
+</body>
+</html>
