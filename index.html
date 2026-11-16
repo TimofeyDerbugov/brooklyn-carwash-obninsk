@@ -8,7 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Golos+Text:wght@400;500;600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
 
     <link rel="canonical" href="https://timofeyderbugov.github.io/brooklyn-carwash-obninsk/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -18,6 +18,7 @@
     <meta property="og:title" content="Автомойка «Бруклин» — круглосуточно, Обнинск">
     <meta property="og:description" content="Круглосуточная автомойка в Обнинске: мойка кузова, нано-мойка, жидкий кварц, шиномонтаж, химчистка салона и полировка.">
     <meta property="og:url" content="https://timofeyderbugov.github.io/brooklyn-carwash-obninsk/">
+    <meta property="og:image" content="https://timofeyderbugov.github.io/brooklyn-carwash-obninsk/img/bay.jpg">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,10 +26,7 @@
 
     <header class="header">
         <div class="wrap header__inner">
-            <a class="logo" href="#top">
-                <span class="bullet" aria-hidden="true">24</span>
-                Бруклин
-            </a>
+            <a class="logo" href="#top">Brooklyn</a>
 
             <nav class="nav" aria-label="Разделы сайта">
                 <a href="#prices">Цены</a>
@@ -44,88 +42,74 @@
 
     <main id="top">
 
-        <!-- Первый экран -->
+        <!-- Первый экран: фото бокса с шестигранными лампами -->
         <section class="hero">
+            <img class="hero__bg" src="img/bay.jpg" width="960" height="1280"
+                 alt="Моечный бокс «Бруклин» с шестигранными лампами на потолке">
+
             <div class="wrap hero__inner">
-                <div class="hero__text">
-                    <p class="hero__clock">
-                        <span class="hero__dot" aria-hidden="true"></span>
-                        Сейчас <time data-clock>--:--</time> — открыто
-                    </p>
+                <p class="hero__clock">
+                    <span class="hero__dot" aria-hidden="true"></span>
+                    Сейчас <time data-clock>--:--</time>, мы открыты
+                </p>
 
-                    <h1 class="hero__title">Автомойка, которая не&nbsp;закрывается</h1>
+                <h1 class="hero__title">Мойка и&nbsp;детейлинг круглосуточно</h1>
 
-                    <p class="hero__lead">
-                        Обнинск, Борисоглебская, 58Б. Моем кузов, делаем шиномонтаж,
-                        химчистку салона и полировку — днём, ночью и в выходные.
-                    </p>
+                <p class="hero__lead">
+                    Обнинск, Борисоглебская, 58Б. Мойка кузова, нано-мойка, жидкий кварц,
+                    химчистка салона, полировка и шиномонтаж — днём и ночью.
+                </p>
 
-                    <div class="hero__actions">
-                        <a class="btn" href="#booking">Записаться на мойку</a>
-                        <a class="btn btn--line" href="tel:+79657057820">Позвонить</a>
-                    </div>
+                <div class="hero__actions">
+                    <a class="btn" href="#booking">Записаться на мойку</a>
+                    <a class="btn btn--line" href="tel:+79657057820">Позвонить</a>
                 </div>
 
-                <figure class="ph ph--hero">
-                    <div class="ph__box">
-                        <span class="ph__tag">Фото</span>
-                        <p class="ph__text">
-                            Мойка ночью: машина в боксе под светом ламп, пена на кузове,
-                            мокрый блестящий пол. Вертикальный кадр 4:5.
-                        </p>
-                    </div>
-                </figure>
-            </div>
-
-            <div class="wrap">
                 <ul class="hero__badges">
                     <li><strong>4,9</strong> на Яндекс Картах, 369 оценок</li>
-                    <li><strong>«Хорошее место 2026»</strong> — награда Яндекс Карт</li>
+                    <li><strong>Хорошее место 2026</strong> награда Яндекс Карт</li>
                     <li><strong>24/7</strong> без перерывов и выходных</li>
                 </ul>
             </div>
         </section>
 
-        <!-- Цены: схема-ветка как в метро -->
-        <section class="line-section" id="prices">
-            <div class="wrap">
-                <h2 class="section__title section__title--light">Цены</h2>
-                <p class="line-section__lead">
-                    Точная стоимость мойки зависит от программы и размера машины.
-                    Химчистку и полировку считаем после осмотра.
-                </p>
+        <!-- Цены -->
+        <section class="section section--hex" id="prices">
+            <div class="wrap prices">
+                <div class="prices__head">
+                    <h2 class="section__title">Цены</h2>
+                    <p class="section__lead">
+                        Точная стоимость мойки зависит от программы и размера машины.
+                        Химчистку и полировку считаем после осмотра.
+                    </p>
+                </div>
 
-                <ol class="line">
-                    <li class="line__stop">
-                        <span class="line__name">Мойка кузова</span>
-                        <span class="line__price">300–2000 ₽</span>
-                        <span class="line__note">ручная, бесконтактная, роботизированная</span>
-                    </li>
-                    <li class="line__stop">
-                        <span class="line__name">Нано-мойка</span>
-                        <span class="line__price">1500 ₽</span>
-                        <span class="line__note">трёхфазная</span>
-                    </li>
-                    <li class="line__stop">
-                        <span class="line__name">Жидкий кварц</span>
-                        <span class="line__price">1500 ₽</span>
-                        <span class="line__note">гидрофобная защита кузова</span>
-                    </li>
-                    <li class="line__stop">
-                        <span class="line__name">Шиномонтаж</span>
-                        <span class="line__price">от 200 ₽</span>
-                        <span class="line__note">монтаж</span>
-                    </li>
-                    <li class="line__stop">
-                        <span class="line__name">Химчистка салона</span>
-                        <span class="line__price">по осмотру</span>
-                    </li>
-                    <li class="line__stop">
-                        <span class="line__name">Полировка</span>
-                        <span class="line__price">по осмотру</span>
-                        <span class="line__note">в том числе после смолы и царапин</span>
-                    </li>
-                </ol>
+                <dl class="price-list">
+                    <div class="price-list__row">
+                        <dt>Мойка кузова <span>ручная, бесконтактная, роботизированная</span></dt>
+                        <dd>300–2000 ₽</dd>
+                    </div>
+                    <div class="price-list__row">
+                        <dt>Нано-мойка <span>трёхфазная</span></dt>
+                        <dd>1500 ₽</dd>
+                    </div>
+                    <div class="price-list__row">
+                        <dt>Жидкий кварц <span>гидрофобная защита кузова</span></dt>
+                        <dd>1500 ₽</dd>
+                    </div>
+                    <div class="price-list__row">
+                        <dt>Шиномонтаж <span>монтаж</span></dt>
+                        <dd>от 200 ₽</dd>
+                    </div>
+                    <div class="price-list__row">
+                        <dt>Химчистка салона</dt>
+                        <dd>по осмотру</dd>
+                    </div>
+                    <div class="price-list__row">
+                        <dt>Полировка <span>в том числе после смолы и царапин</span></dt>
+                        <dd>по осмотру</dd>
+                    </div>
+                </dl>
 
                 <div class="extras">
                     <p class="extras__title">Ещё моем</p>
@@ -141,6 +125,25 @@
             </div>
         </section>
 
+        <!-- Работы -->
+        <section class="works" aria-label="Фото с мойки">
+            <figure class="works__item">
+                <img src="img/interior.jpg" width="960" height="1280" loading="lazy"
+                     alt="Салон внедорожника с оранжевой кожей после химчистки">
+                <figcaption>Химчистка салона</figcaption>
+            </figure>
+            <figure class="works__item">
+                <img src="img/hand-wash.jpg" width="960" height="1280" loading="lazy"
+                     alt="Мойщик вручную протирает капот белой машины">
+                <figcaption>Ручная мойка</figcaption>
+            </figure>
+            <figure class="works__item">
+                <img src="img/facade-night.jpg" width="960" height="1280" loading="lazy"
+                     alt="Вывеска BROOKLYN ночью, у входа машины">
+                <figcaption>Открыты ночью</figcaption>
+            </figure>
+        </section>
+
         <!-- Запись -->
         <section class="section" id="booking">
             <div class="wrap booking">
@@ -151,11 +154,16 @@
                         в WhatsApp и подтвердит время.
                     </p>
 
+                    <figure class="booking__photo">
+                        <img src="img/lounge.jpg" width="750" height="1000" loading="lazy"
+                             alt="Стойка администратора в зоне ожидания">
+                    </figure>
+
                     <div class="tip">
                         <p class="tip__title">Когда меньше всего ждать</p>
                         <p>
                             Больше всего машин обычно около шести вечера.
-                            Если удобно, приезжайте раньше или позже — или запишитесь заранее.
+                            Приезжайте раньше или позже — или запишитесь заранее.
                         </p>
                     </div>
                 </div>
@@ -262,21 +270,31 @@
         </section>
 
         <!-- Пока ждёте -->
-        <section class="section section--foam" id="comfort">
+        <section class="section section--alt" id="comfort">
             <div class="wrap comfort">
-                <div>
+                <figure class="comfort__photo comfort__photo--main">
+                    <img src="img/lounge-sofa.jpg" width="960" height="1280" loading="lazy"
+                         alt="Зона ожидания: диван, светлые каменные стены и световые линии на потолке">
+                </figure>
+
+                <div class="comfort__text">
                     <h2 class="section__title">Пока моют машину</h2>
                     <p class="section__lead">Можно посидеть в тепле и не смотреть на часы.</p>
-                </div>
 
-                <ul class="comfort__list">
-                    <li><strong>Кафе</strong> — кофе и перекусить</li>
-                    <li><strong>Wi-Fi</strong>, чтобы поработать или посмотреть сериал</li>
-                    <li><strong>Туалет</strong> на территории</li>
-                    <li><strong>С собакой можно</strong> — с животными пускаем</li>
-                    <li><strong>Парковка</strong>, есть места для людей с инвалидностью</li>
-                    <li><strong>Оплата</strong> картой или наличными</li>
-                </ul>
+                    <ul class="comfort__list">
+                        <li><strong>Кафе</strong> — кофе и перекусить</li>
+                        <li><strong>Wi-Fi</strong>, чтобы поработать или посмотреть сериал</li>
+                        <li><strong>Туалет</strong> на территории</li>
+                        <li><strong>С собакой можно</strong> — с животными пускаем</li>
+                        <li><strong>Парковка</strong>, есть места для людей с инвалидностью</li>
+                        <li><strong>Оплата</strong> картой или наличными</li>
+                    </ul>
+
+                    <figure class="comfort__photo">
+                        <img src="img/lounge-art.jpg" width="750" height="1000" loading="lazy"
+                             alt="Картина на стене в зоне ожидания">
+                    </figure>
+                </div>
             </div>
         </section>
 
@@ -285,6 +303,7 @@
             <div class="wrap reviews">
                 <div class="reviews__score">
                     <p class="reviews__num">4,9</p>
+                    <p class="reviews__stars" aria-hidden="true">★★★★★</p>
                     <p class="reviews__meta">369 оценок и 188 отзывов на Яндекс Картах</p>
                 </div>
 
@@ -295,16 +314,16 @@
                         на боксах. Один клиент рассказал, как полировкой спасли капот, испорченный
                         смолой, и остался доволен работой.
                     </p>
-                    <a class="link-btn" href="https://yandex.ru/profile/204612633149" target="_blank" rel="noopener">Читать отзывы на Яндекс Картах</a>
+                    <a class="link-btn" href="https://yandex.ru/maps/org/204612633149/reviews/" target="_blank" rel="noopener">Читать отзывы на Яндекс Картах</a>
                 </div>
             </div>
         </section>
 
         <!-- Сертификат -->
-        <section class="section section--brick" id="gift">
+        <section class="section section--hex" id="gift">
             <div class="wrap gift">
                 <div class="gift__text">
-                    <h2 class="section__title section__title--light">Подарочный сертификат</h2>
+                    <h2 class="section__title">Подарочный сертификат</h2>
                     <p>
                         Хороший подарок для того, кто водит: мойка, кварц или полировка
                         на выбор. Оформим сертификат на нужную сумму, заберёте на мойке.
@@ -314,7 +333,7 @@
                 <form class="gift__form" id="gift-form" novalidate>
                     <fieldset class="form__fieldset">
                         <legend class="form__label">Сумма</legend>
-                        <div class="pills pills--light">
+                        <div class="pills">
                             <label class="pill">
                                 <input type="radio" name="amount" value="1000">
                                 <span>1000 ₽</span>
@@ -337,13 +356,13 @@
                     <div class="gift__row">
                         <label class="visually-hidden" for="gift-phone">Телефон</label>
                         <input class="form__input" id="gift-phone" name="phone" type="tel" placeholder="Ваш телефон" required>
-                        <button class="btn btn--dark" type="submit">Заказать</button>
+                        <button class="btn" type="submit">Заказать</button>
                     </div>
-                    <label class="consent consent--light">
+                    <label class="consent">
                         <input type="checkbox" name="consent" value="yes">
                         <span>Соглашаюсь на <a href="consent.html" target="_blank">обработку персональных данных</a></span>
                     </label>
-                    <p class="form__error form__error--light" role="alert" hidden></p>
+                    <p class="form__error" role="alert" hidden></p>
                 </form>
             </div>
         </section>
@@ -353,6 +372,11 @@
             <div class="wrap contacts">
                 <div>
                     <h2 class="section__title">Как доехать</h2>
+
+                    <figure class="contacts__photo">
+                        <img src="img/facade-day.jpg" width="1280" height="960" loading="lazy"
+                             alt="Здание мойки «Бруклин» днём: графитовый фасад и въезды в боксы">
+                    </figure>
 
                     <dl class="contacts__list">
                         <div>
@@ -394,10 +418,7 @@
 
     <footer class="footer">
         <div class="wrap footer__inner">
-            <p class="logo logo--footer">
-                <span class="bullet" aria-hidden="true">24</span>
-                Бруклин
-            </p>
+            <p class="logo logo--footer">Brooklyn</p>
             <p class="footer__small">Автомойка «Бруклин», Обнинск, Борисоглебская, 58Б</p>
             <nav class="footer__legal" aria-label="Документы">
                 <a href="privacy.html">Политика конфиденциальности</a>
