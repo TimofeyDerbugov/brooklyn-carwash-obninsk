@@ -1,0 +1,18 @@
+# Фото из карточки организации на Яндекс Картах.
+# Формат: имя_файла адрес. Скачивает .github/workflows/fetch-photos.yml
+bay.jpg https://avatars.mds.yandex.net/get-altay/14112077/2a0000019189b4ed433dada7bf6780d6cc57/XXXL
+facade-day.jpg https://avatars.mds.yandex.net/get-altay/13197739/2a0000019189b4ecc399d73fbaf69798af2b/XXXL
+facade-night.jpg https://avatars.mds.yandex.net/get-altay/15650736/2a00000197eb529bc144574cbc064e285fba/XXXL
+interior.jpg https://avatars.mds.yandex.net/get-altay/17783115/2a0000019dc092a38e8a603f7f9f9e38189a/XXXL
+polishing.jpg https://avatars.mds.yandex.net/get-altay/18141736/2a0000019dc092854406ffe31c11797b3903/XXXL
+hand-wash.jpg https://avatars.mds.yandex.net/get-altay/20307657/2a0000019e7e237d86217e473c6c137f83e3/XXXL
+lounge.jpg https://avatars.mds.yandex.net/get-altay/14699088/2a00000195386b828eb46f29734a6daa6da4/XXXL
+lounge-art.jpg https://avatars.mds.yandex.net/get-altay/13668123/2a00000195386b8538380e0bd52bc94dc81e/XXXL
+lounge-sofa.jpg https://avatars.mds.yandex.net/get-altay/13220786/2a0000019189b4896f33ae1f8aa0365de074/XXXL
+lounge-tv.jpg https://avatars.mds.yandex.net/get-altay/14306639/2a00000195386b862c596195eefb10fb704c/XXXL
+lounge-wall.jpg https://avatars.mds.yandex.net/get-altay/15152716/2a0000019794117d8f1c9dc5fedda19a92fb/XXXL
+pylon.jpg https://avatars.mds.yandex.net/get-altay/14097168/2a00000194389c2452052b1df9d87c402f9e/XXXL
+car-in-bay.jpg https://avatars.mds.yandex.net/get-altay/14730529/2a000001945c125862f5a8c09fb103a3fa86/XXXL
+bay-2.jpg https://avatars.mds.yandex.net/get-altay/16319048/2a00000197d117a6b61aae31f08a9df337fc/XXXL
+robot-wash.jpg https://avatars.mds.yandex.net/get-altay/14920824/2a0000019478f3967a810395cc9fc643c6d8/XXXL
+bay-3.jpg https://avatars.mds.yandex.net/get-altay/14097168/2a0000019478f33c64cdfa289152e83b6b72/XXXL
