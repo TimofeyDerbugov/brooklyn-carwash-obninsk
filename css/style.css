@@ -1334,3 +1334,14 @@ select.form__input {
 .not-found__title {
     text-transform: uppercase;
 }
+
+/* ---------- Плашка «концепт» ---------- */
+
+.demo-bar {
+    padding: 8px 20px;
+    background: var(--ink-main);
+    color: var(--bg, #000);
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
